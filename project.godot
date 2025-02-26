@@ -1,0 +1,28 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="StealthShooterGodot"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="res://icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://StealthShooterGodot/Core/": "teal",
+"res://StealthShooterGodot/Maps/": "orange",
+"res://StealthShooterGodot/Scenes/": "blue",
+"res://TempMaterials/": "gray"
+}
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
