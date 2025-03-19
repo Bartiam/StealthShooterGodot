@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [file_customization]
 
 folder_colors={
+"res://StealthShooterGodot/Assets/": "green",
 "res://StealthShooterGodot/Core/": "teal",
 "res://StealthShooterGodot/Maps/": "orange",
 "res://StealthShooterGodot/Scenes/": "blue",
