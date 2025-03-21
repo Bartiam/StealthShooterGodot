@@ -244,6 +244,7 @@ shape = SubResource("BoxShape3D_0kcr3")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.86388, 2.27764, 0.333689)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="PhysObjects/PhysCube2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3)
 mesh = SubResource("BoxMesh_l7gqj")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="PhysObjects/PhysCube2"]
